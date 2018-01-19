@@ -6,9 +6,9 @@ The safe has a digital screen and keypad for code entry. A sticky note attached 
 
 When you go to type the code, though, nothing appears on the display; instead, the keypad comes apart in your hands, apparently having been smashed. Behind it is some kind of socket - one that matches a connector in your [prototype computer](https://github.com/jamester234/Advent-of-Code-2016/tree/master/Days/Day%2011%20-%20Radioisotope%20Thermoelectric%20Generators)! You pull apart the smashed keypad and extract the logic circuit, plug it into your computer, and plug your computer into the safe.
 
-Now, you just need to figure out what output the keypad would have sent to the safe. You extract the [assembunny code](https://github.com/jamester234/Advent-of-Code-2016/tree/master/Days/Day%2012%20-%20Leonardos%20Monorail) from the logic chip (your puzzle input).
+Now, you just need to figure out what output the keypad would have sent to the safe. You extract the [assembunny code](https://github.com/jamester234/Advent-of-Code-2016/tree/master/Days/Day%2012%20-%20Leonardo's%20Monorail) from the logic chip (your puzzle input).
 
-The code looks like it uses **almost** the same architecture and instruction set that the [monorail computer](https://github.com/jamester234/Advent-of-Code-2016/tree/master/Days/Day%2012%20-%20Leonardos%20Monorail) used! You should be able to **use the same assembunny interpreter** for this as you did there, but with one new instruction:
+The code looks like it uses **almost** the same architecture and instruction set that the [monorail computer](https://github.com/jamester234/Advent-of-Code-2016/tree/master/Days/Day%2012%20-%20Leonardo's%20Monorail) used! You should be able to **use the same assembunny interpreter** for this as you did there, but with one new instruction:
 
 `tgl x` **toggles** the instruction `x` away (pointing at instructions like `jnz` does: positive means forward; negative means backward):
 
